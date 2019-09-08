@@ -27,10 +27,10 @@ $ vagrant ssh ansible
 ### execute ansible
 
 ```console
-[vagrant@demo-ansible ~]$ cd /ansible/
-[vagrant@demo-ansible ansible]$ ls
+[vagrant@demo-ansible ~]$ cd /ansible-demo/
+[vagrant@demo-ansible ansible-demo]$ ls
 ansible.cfg  inventory.ini  playbook.yml  templates
-[vagrant@demo-ansible ansible]$ ansible-playbook -i inventory.ini playbook.yml 
+[vagrant@demo-ansible ansible-demo]$ ansible-playbook -i inventory.ini playbook.yml 
 ```
 
 ### access to http server
